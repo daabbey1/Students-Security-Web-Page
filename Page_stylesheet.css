@@ -1,0 +1,176 @@
+.fresh-content{
+    margin-bottom: 150px;;
+}
+
+
+
+/* xs */
+@media(max-width: 575px){
+.navbar-brand img{
+    width: 100px; 
+    height:100px;
+}
+
+.side img, .tabs-2{
+    display: none;
+}
+
+.FIR{
+    font-size:1.3rem ;
+}
+
+.inner-head{
+    font-size: 1.5rem;
+    justify-content: center;
+    color: white;
+}
+.head {
+    display: none;
+}
+
+.compl-info, .report-type, .missing-item, .evidence-info,
+ .evidence-format, .culprit-info, .news-header, .missing-item{
+    font-size: 1.2rem;
+}
+.officers-details{
+    font-size: 1.2rem;
+}
+.sub-item{
+    font-size:1.1rem;
+}
+}
+
+/* sm */
+@media(min-width: 576px) and (max-width:767px){
+
+.navbar-brand img{
+    width: 100px; 
+    height:100px;
+}
+
+.side img, .tabs-2{
+    display: none;
+}
+
+.FIR{
+    font-size:1.4rem ;
+}
+
+.inner-head{
+    font-size: 2.0rem;
+    justify-content: center;
+    color: white;
+}
+.head {
+    display: none;
+}
+
+.compl-info, .report-type, .missing-item, .evidence-info,
+ .evidence-format, .culprit-info, .news-header, .missing-item{
+    font-size: 1.2rem;
+}
+
+.officers-details{
+    font-size: 1.2rem;
+}
+.sub-item{
+    font-size:1.2rem;
+}
+}
+
+/* md */
+@media(min-width: 768px) and (max-width:991px){
+.navbar-brand img{
+    width: 100px; 
+    height:100px;
+}
+
+.side img, .head,.tabs-2{
+    display: none;
+}
+
+.inner-head{
+    font-size: 2.3rem;
+    justify-content: center;
+    color: white;
+}
+.FIR{
+    font-size:1.6rem ;
+}
+.compl-info, .report-type, .missing-item, .evidence-info,
+ .evidence-format, .culprit-info, .news-header, .missing-item{
+    font-size: 1.4rem;
+}
+.sub-item{
+    font-size:1.3rem;
+}
+}
+
+/* lg */
+@media(min-width: 992px) and (max-width:1199px){
+.navbar-brand img{
+    width: 100px; 
+    height:100px;
+}
+
+.side img, .inner-head,.tabs-1{
+    display: none;
+}
+
+.head{
+    font-size: 1.4rem;
+    justify-content: center;
+    color: white;
+}
+
+.FIR{
+    font-size:1.7rem ;
+}
+
+.compl-info, .report-type, .missing-item, .evidence-info,
+ .evidence-format, .culprit-info, .news-header, .missing-item{
+    font-size: 1.5rem;
+}
+.sub-item{
+    font-size:1.4rem;
+}
+}
+
+/* xl */
+@media(min-width: 1200px) {
+.navbar-brand img{
+    width: 100px; 
+    height:100px;
+}
+
+.inner-head,.tabs-1{
+    display: none;
+}
+
+.head{
+    font-size: 1.8rem;
+    justify-content: center;
+    color: white;
+    margin-left: 7.2rem;
+}
+
+.FIR{
+    font-size: 2.0rem ;
+}
+
+.side img{
+    margin-right: 30px;
+}
+
+.left-side img{
+    margin-left: 30px;
+}
+
+.compl-info, .report-type, .missing-item, .evidence-info,
+ .evidence-format, .culprit-info, .news-header, .missing-item{
+    font-size: 1.7rem;
+}
+.sub-item{
+    font-size:1.5rem;
+}
+}

@@ -1,0 +1,404 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  /* font-family:monospace; */
+  font-family:"Roboto",san-serif;
+  background-color:white;
+  /* background-color:#cac3c3; */
+}
+
+.fresh-content{
+    margin-bottom: 0px;
+    /* background-color: red; */
+}
+
+.sub-title{
+  font-size: 25px;
+  margin-top: 130px;
+  color:#3494b1;
+  /* background-color:orange; */
+}
+
+.sub-links{
+  margin-top: 200px;
+  margin-bottom: 80px;
+  /* background-color: green; */
+}
+
+
+.col-8 a{
+  font-family:"Roboto",san-serif;
+  text-decoration-color: #5bc0de;
+}
+
+.login-card{
+  margin: 0 auto; 
+  float: none; 
+  margin-top: 200px; 
+  width: 35%;
+  font-family:sans-serif;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Home Page Query */
+.navbar-brand{
+  width: 205px;
+}
+.f1{
+  font-size: 16px;
+  margin-left: -15px;
+}
+
+.navbar-nav{
+  justify-content: center;
+  font-size: 12px;
+}
+.media{
+  margin-bottom: 15px;
+}
+.icon{
+  font-size: 45px;
+}
+.media-body{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.sub-title{
+  margin-top: 5px;
+}
+.sub-links{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.SecSupport{
+  font-size: 35px;
+  margin-bottom: 3px;
+}
+.secSub-txt-main{
+  margin-bottom: 45px;
+}
+.secSub{
+  font-size: 70px;
+}
+.secSub-txt{
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+/* Login Query */
+.login-card{
+  width: 80%;
+}
+
+/* FIR Query */
+.news-header{
+  font-size: 22px;
+}
+.compl-info, .report-type, .missing-item, .officers-details, .culprit-info, .culprit-info-sub, .evidence-info, .evidence-format{
+  font-size: 19px;
+}
+.submit_info{
+  margin: auto;
+  /* width:auto; */
+  background-color:green;
+  /* margin: 5px 3px 5px 3px; */
+  /* color: orange;
+  padding: 50%; */
+}
+.sub-buton{
+  background-color: orange;
+  /* margin: auto; */
+  /* width: auto; */ 
+}
+
+/* News  & Missing Query */
+.search-text{
+  font-size: 22px;
+  margin-left: 15px;
+  margin-bottom: -10px;
+  /* background-color:orange; */
+}
+.search-button{
+  margin-left: 15px;
+  /* background-color: pink; */
+}
+.new-title{
+  font-size: 14px;
+  color: #3494b1;
+  font-weight: 700;
+}
+.missing-title{
+  font-size: 12px;
+  color: #3494b1;
+  font-weight: 700;
+}
+
+.missing-content{
+  font-size: 14px;
+}
+
+/* Help Line */
+.news-header{
+  font-size: 22px;
+}
+
+.card-title,.card-text{
+  font-size: 14px;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* Home Page Query */
+.media{
+  margin-bottom: 35px;
+}
+.icon{
+  font-size: 45px;
+}
+.media-body{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.sub-title{
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+.sub-links{
+  margin-top: 0px;
+  margin-bottom: 160px;
+}
+.SecSupport{
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.secSub-txt-main{
+  margin-bottom: 45px;
+}
+.secSub{
+  font-size: 70px;
+}
+.secSub-txt{
+  font-size: 15px;
+  margin-top: 3px;
+}
+/* Login Query */
+.login-card{
+  width: 80%;
+}
+
+/* FIR Query */
+.news-header{
+  font-size: 22px;
+}
+.compl-info, .report-type, .missing-item, .officers-details, .culprit-info, .culprit-info-sub, .evidence-info, .evidence-format{
+  font-size: 19px;
+}
+.submit_info{
+  margin: auto;
+  /* width:auto; */
+  background-color:green;
+  /* margin: 5px 3px 5px 3px; */
+  /* color: orange;
+  padding: 50%; */
+}
+.sub-buton{
+  background-color: orange;
+  /* margin: auto; */
+  /* width: auto; */
+  
+}
+
+/* News Query */
+.search-text{
+  font-size: 23px;
+  /* margin-left: 15px; */
+  padding-top: 30px;
+}
+.search-button{
+  padding-top:-15px ;
+}
+.search-button input{
+margin-left: 25px;
+}
+.new-title{
+  font-size: 14px;
+  color: #3494b1;
+  font-weight: 700;
+}
+.missing-title{
+  font-size: 13px;
+  color: #3494b1;
+  font-weight: 700;
+}
+
+.missing-content{
+  font-size: 16px;
+}
+
+/* Help Line */
+.news-header{
+  font-size: 22px;
+}
+
+.card-title,.card-text{
+  font-size: 15px;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* Home Page Query */
+  .fresh-content{
+    margin-top: 20px;
+  }
+  .SecSupport{
+  font-stretch: extra-condensed;
+  }
+  .sub-title{
+  margin-top: 95px;
+  margin-bottom: 90px;
+}
+.sub-links{
+  margin-top: 0px;
+  margin-bottom: 240px;
+}
+/* Login Query */
+.login-card{
+  width: 60%;
+}
+
+/* FIR Query */
+.news-header{
+  font-size: 22px;
+}
+.compl-info, .report-type, .missing-item, .officers-details, .culprit-info, .culprit-info-sub, .evidence-info, .evidence-format{
+  font-size: 19px;
+}
+.submit_info{
+  margin: auto;
+  /* width:auto; */
+  background-color:green;
+  /* margin: 5px 3px 5px 3px; */
+  /* color: orange;
+  padding: 50%; */
+}
+.sub-buton{
+  background-color: orange;
+  /* margin: auto; */
+  /* width: auto; */
+  
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* Home Page Query */
+  .carousel-inner img{
+    height: 90vh;
+    position: cover;
+  }
+  .fresh-content{
+    margin-top: 70px;
+  }
+  .SecSupport{
+  font-stretch: extra-condensed;
+  }
+  .sub-title{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.sub-links{
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+/* Login Query */
+.login-card{
+  width: 50%;
+}
+
+/* FIR Query */
+.news-header{
+  font-size: 27px;
+}
+.compl-info, .report-type, .missing-item, .officers-details, .culprit-info, .culprit-info-sub, .evidence-info, .evidence-format{
+  font-size: 22px;
+}
+.submit_info{
+  margin: auto;
+  /* width:auto; */
+  background-color:green;
+  /* margin: 5px 3px 5px 3px; */
+  /* color: orange;
+  padding: 50%; */
+}
+.sub-buton{
+  background-color: orange;
+  /* margin: auto; */
+  /* width: auto; */
+  
+}
+
+/* News Query */
+.search-button{
+  padding-top:15px ;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* Home Page Query */
+  .carousel-inner img{
+    height: 90vh;
+  }
+  .fresh-content{
+    margin-top: 90px;
+  }
+  .SecSupport{
+  font-stretch: extra-condensed;
+  }
+  .sub-title{
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+.sub-links{
+  margin-top: 0px;
+  margin-bottom: 130px;
+}
+/* Login Query */
+.login-card{
+  width: 40%;
+}
+
+/* FIR Query */
+.news-header{
+  font-size: 27px;
+}
+.compl-info, .report-type, .missing-item, .officers-details, .culprit-info, .culprit-info-sub, .evidence-info, .evidence-format{
+  font-size: 22px;
+}
+.submit_info{
+  margin: auto;
+  /* width:auto; */
+  background-color:green;
+  /* margin: 5px 3px 5px 3px; */
+  /* color: orange;
+  padding: 50%; */
+}
+.sub-buton{
+  background-color: orange;
+  /* margin: auto; */
+  /* width: auto; */
+  
+}
+}
+
